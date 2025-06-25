@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>APLC - Ressources Wireframe</title>
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container header-container">
+        <a href="index.html" class="logo"
+          ><div class="placeholder" style="width: 120px; height: 40px">
+            Logo APLC
+          </div></a
+        >
+        <nav class="main-nav" id="main-nav">
+          <a href="index.html">Accueil</a>
+          <a href="a-propos.html">À Propos</a>
+          <a href="adhesion.html">Adhésion</a>
+          <a href="actualites.html">Actualités</a>
+          <a href="ressources.html" class="active-link">Ressources</a>
+          <a href="contact.html">Contact</a>
+        </nav>
+        <a href="login.html" class="btn desktop-login-btn">Espace Membre</a>
+        <button class="menu-toggle" id="menu-toggle">
+          <div class="placeholder" style="width: 30px; height: 30px">☰</div>
+        </button>
+      </div>
+    </header>
+
+    <main>
+      <div class="page-title-header">
+        <h1>Bibliothèque de Ressources</h1>
+        <p class="section-subtitle">
+          Un centre de connaissances pour les pédiatres membres et le public.
+        </p>
+      </div>
+
+      <div class="container">
+        <section class="section" style="padding-top: 0">
+          <h2 class="section-title">Ressources à la une</h2>
+          <div class="grid grid-3-col">
+            <div class="card">
+              <div class="placeholder-img"></div>
+              <h3>Guide sur l'asthme infantile</h3>
+              <div class="placeholder-text-short"></div>
+              <a href="#">Accéder →</a>
+            </div>
+            <div class="card">
+              <div class="placeholder-img"></div>
+              <h3>Étude sur la nutrition</h3>
+              <div class="placeholder-text-short"></div>
+              <a href="#">Accéder →</a>
+            </div>
+            <div class="card">
+              <div class="placeholder-img"></div>
+              <h3>Recommandations Vaccinales</h3>
+              <div class="placeholder-text-short"></div>
+              <a href="#">Accéder →</a>
+            </div>
+          </div>
+        </section>
+
+        <hr style="border: 1px solid var(--border-color); margin: 40px 0" />
+
+        <div class="main-content-with-sidebar">
+          <div class="content-area">
+            <h2>Toutes les ressources</h2>
+            <div class="card-list-item">
+              <div class="list-item-content">
+                <h3>Titre de la ressource 1</h3>
+                <p>Catégorie: Guides Pratiques</p>
+                <div class="placeholder-text-medium"></div>
+              </div>
+              <div class="list-item-action">
+                <a href="#" class="btn">Détails</a>
+              </div>
+            </div>
+            <div class="card-list-item">
+              <div class="list-item-content">
+                <h3>Titre de la ressource 2</h3>
+                <p>Catégorie: Recherche Scientifique</p>
+                <div class="placeholder-text-medium"></div>
+              </div>
+              <div class="list-item-action">
+                <a href="#" class="btn">Détails</a>
+              </div>
+            </div>
+            <div class="card-list-item">
+              <div class="list-item-content">
+                <h3>Titre de la ressource 3</h3>
+                <p>Catégorie: Recommandations</p>
+                <div class="placeholder-text-medium"></div>
+              </div>
+              <div class="list-item-action">
+                <a href="#" class="btn">Détails</a>
+              </div>
+            </div>
+            <div class="pagination">
+              <a href="#">«</a><a href="#" class="active">1</a><a href="#">2</a
+              ><a href="#">3</a><a href="#">»</a>
+            </div>
+          </div>
+          <aside class="sidebar">
+            <div class="widget">
+              <h3>Rechercher une ressource</h3>
+              <div class="form-field">...</div>
+            </div>
+            <div class="widget">
+              <h3>Catégories</h3>
+              <ul>
+                <li><a href="#">Guides Pratiques (5)</a></li>
+                <li><a href="#">Recherche Scientifique (8)</a></li>
+                <li><a href="#">Recommandations (3)</a></li>
+              </ul>
+            </div>
+            <div class="widget">
+              <h3>Les plus consultées</h3>
+              <ul>
+                <li><a href="#">Titre ressource populaire 1</a></li>
+                <li><a href="#">Titre ressource populaire 2</a></li>
+              </ul>
+            </div>
+          </aside>
+        </div>
+
+        <section class="section">
+          <div class="cta-section">
+            <h2>Vous avez une ressource à partager?</h2>
+            <p>
+              En tant que membre, vous pouvez contribuer à enrichir notre
+              bibliothèque commune.
+            </p>
+            <a href="#" class="btn btn-secondary">Soumettre une ressource</a>
+          </div>
+        </section>
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="grid grid-3-col footer-col">
+          <div>
+            <h3>APLC</h3>
+            <p>Ensemble pour la santé de nos enfants.</p>
+          </div>
+          <div>
+            <h3>Liens Rapides</h3>
+            <a href="a-propos.html">À Propos</a
+            ><a href="ressources.html">Ressources</a
+            ><a href="contact.html">Contact</a>
+          </div>
+          <div>
+            <h3>Suivez-nous</h3>
+            <p>Social Media Icons</p>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p>© <span id="current-year"></span> APLC. Tous droits réservés.</p>
+        </div>
+      </div>
+    </footer>
+    <script src="assets/js/script.js"></script>
+  </body>
+</html>
